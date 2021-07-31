@@ -9,5 +9,5 @@ Generate Random short URLs and save them in a Txt File.
 # How to USE.
 ## As Python Script.
 Run it as a Python Script using command
-    -> python3 `infosimp.py`
+    -> python3 `url.py`
 #
