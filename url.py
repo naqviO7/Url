@@ -6,6 +6,10 @@ import string
 import os
 import time
 import sys
+from os import system
+
+# => setting window title 
+system("title " + "Url Shortener")
 
 # => function contains menu of program
 def menu():
@@ -82,4 +86,5 @@ main_function()
 
 # => calling input function 
 # => to let user see the output
+
 input()
