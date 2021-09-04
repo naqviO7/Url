@@ -11,6 +11,17 @@ from os import system
 # => setting window title 
 system("title " + "Url Shortener")
 
+def banner():
+    print("""
+ _   _   ____    _     
+| | | | |  _ \  | |    
+| | | | | |_) | | |    
+| |_| | |  _ <  | |___ 
+ \___/  |_| \_\ |_____|
+                Version 1.0
+                    by naqviO7    
+    """)
+
 # => function contains menu of program
 def menu():
     time.sleep(3)
@@ -59,7 +70,12 @@ def main_function():
     # => clearing screen of previous output
     os.system('cls')
     
+    time.sleep(2)
+    #printing banner function
+    banner()
+    
     # => displaying menu 
+    time.sleep(2)
     menu()
     
     # => taking input from user
@@ -80,11 +96,15 @@ def main_function():
         print("-> Invalid Option!\n")
         print("="*22, "E X I T I N G", "="*22,"\n")
         sys.exit()
-        
-# => calling main function
-main_function()
 
-# => calling input function 
-# => to let user see the output
 
-input()
+if __name__ == "__main__":
+
+    time.sleep(3)       
+    # => calling main function
+    main_function()
+
+    # => calling input function 
+    # => to let user see the output
+    input()
+#ENDOFCODE
